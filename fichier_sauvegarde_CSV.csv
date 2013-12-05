@@ -1,0 +1,11 @@
+10
+Manga;11;manga_test_titre5;manga_test_scenariste3;dessinateur_cherche
+Comics;10;comics_test_titre2;comics_test_scenariste2;dessinateur_cherche
+Manga;9;manga_test_titre4;manga_test_scenariste2;dessinateur_cherche
+Manga;8;manga_test_titre3;auteur_cherche;manga_test_dessinateur3
+Comics;7;comics_test_titre;auteur_cherche;comics_test_dessinateur2
+Roman;6;titre_roman_test2;auteur_cherche
+Manga;5;manga_test_titre2;auteur_cherche;manga_test_dessinateur2
+Comics;4;comics_test_titre;comics_test_scenariste;comics_test_dessinateur
+Manga;3;manga_test_titre;manga_test_scenariste;manga_test_dessinateur
+Roman;2;auteur_roman_test;titre_roman_test
