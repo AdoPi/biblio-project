@@ -24,6 +24,7 @@ public abstract class Livre implements Serializable {
 
 	/**
 	* Retourne une chaine de caractères correspondant au type du livre
+	*
 	* @return 	le type du livre
 	**/
 	public abstract String categorie();
@@ -42,6 +43,7 @@ public abstract class Livre implements Serializable {
 
 	/**
 	* Retourne l'auteur du livre 
+	*
 	* @return auteur
 	**/
 	public String getAuteur() {
@@ -50,6 +52,7 @@ public abstract class Livre implements Serializable {
 
 	/** 
 	* Retourne le titre du livre
+	*
 	* @return titre
 	**/
 	public String getTitre() {
@@ -57,6 +60,8 @@ public abstract class Livre implements Serializable {
 	}
 	/**
 	* Méthode permettant de modifier l'auteur d'un livre
+	*
+	* @param chaine chaine contenant le nouvel auteur du livre à modifier
 	**/
 	public void setAuteur(String chaine) {
 		auteur=chaine;
@@ -64,19 +69,24 @@ public abstract class Livre implements Serializable {
 
 	/**
 	* Méthode permettant de modifier la liste d'un livre
+	*
+	* @param chaine chaine contenant le nouveau titre du livre à modifier
 	**/
 	public void setTitre(String chaine) {
 		titre=chaine;
 	}
 	/**
 	* Méthode permettant de modifier le numéro d'un livre
+	*
+	* @param num nouveau numéro du livre
 	**/
 	public void setNumero(int num) {
 		numero=num;
 	}
 	/**
 	* Méthode permettant de retourner le numéro d'un livre
-	* @return numero
+	*
+	* @return id d'un livre
 	**/
 	public int getNumero() {
 		return numero;

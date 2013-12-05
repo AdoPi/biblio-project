@@ -13,6 +13,7 @@ public class Manga extends BD {
 	/**
 	* Méthode permettant de retourner la catégorie de
 	* la BD ( ici Manga)
+	*
 	* @return la catégorie de la BD (Manga)
 	**/
 	public String categorie() {
